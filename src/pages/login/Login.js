@@ -16,7 +16,7 @@ import {
     TipLeft,
     TipBox
 } from "./style";
-import "antd/dist/antd.css";
+// import "antd/dist/antd.css";
 import {
     Input,
     Button
