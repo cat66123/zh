@@ -3,8 +3,6 @@ import styled,{createGlobalStyle} from "styled-components";
 export const HomeWrapper = styled.div`
     width:100%;
     height:100%;
-    background:#f6f6f6;
-    position:absolute;
 `;
 
 export const HomeContainer = styled.div`

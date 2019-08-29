@@ -1,19 +1,20 @@
-import styled from "styled-components";
-import img from "../../statics/login/bg.jpg";
+import styled from 'styled-components';
+import img from '../../statics/login/bg.jpg';
 
 export const LoginWrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(${img});
   background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const Logo = styled.img.attrs({
-  src: "https://pic4.zhimg.com/80/v2-a47051e92cf74930bedd7469978e6c08_hd.png"
+  src: 'https://pic4.zhimg.com/80/v2-a47051e92cf74930bedd7469978e6c08_hd.png',
 })`
   width: 128px;
   margin-top: 30px;
