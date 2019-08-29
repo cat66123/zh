@@ -8,7 +8,7 @@ export const PageWrapper = styled.div`
 `;
 
 export const HeaderWrapper = styled.div`
-    width: 1032px;
+    min-width: 1032px;
     height:52px;
     background:white;
     box-shadow:0 0 3px lightgray;
